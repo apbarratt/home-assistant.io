@@ -40,7 +40,7 @@ ha_integration_type: integration
 
 The `tplink` integration allows you to control your [TP-Link Kasa Smart Home Devices](https://www.tp-link.com/kasa-smart/) and [TP-Link Tapo Devices](https://www.tapo.com/) such as plugs, power strips, wall switches and bulbs.
 
-You need to provision your newly purchased device to connect to your network before it can be added via the integration. This can be done either by using [kasa command-line tool](https://python-kasa.readthedocs.io/en/latest/cli.html#provisioning) or by adding it to the official Kasa or Tapo app before trying to add them to Home Assistant. Some apps for TP-Link's other products, such as the Deco app, also allow you to add Kasa and Tapo devices within them, these devices use the same TP-Link Cloud Account for authorisation and so work with this integration also.
+You need to provision your newly purchased device to connect to your network before it can be added via the integration. This can be done either by using [kasa command-line tool](https://python-kasa.readthedocs.io/en/latest/cli.html#provisioning) or by adding it to the official Kasa or Tapo app before trying to add them to Home Assistant. Some apps for TP-Link's other products, such as the Deco app, also allow you to add Kasa and Tapo devices within them, these devices use the same TP-Link Cloud Account for authorization and so work with this integration also.
 
 If your device is a newer Kasa or Tapo device it will require your TP-Link cloud username and password to authenticate for local access.
 If you have an older device that does not currently require authentication, you may consider disabling automatic firmware updates to keep it that way.
